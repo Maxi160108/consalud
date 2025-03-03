@@ -1,10 +1,15 @@
-/*sector derecho*/
+.container{
+    display: flex;
+    flex-direction: row;
+}
 
-.derecha{
+/*sector izquierda*/
+
+.izquierda{
     display: flex;
     width: 50%;
     height:450px;
-    justify-content: flex-start;
+    justify-content: left;
     align-items: center;
 }
 .Consalud{
@@ -17,7 +22,7 @@
     margin-left: 25%;
 }
 
-/*sector derecho: Texto*/
+/*sector izquierda: Texto*/
 
 .encabezado{
     font-size: 20px;
@@ -42,7 +47,7 @@
     color: rgb(42, 42, 255);
 }
 
-/*sector derecho: input*/
+/*sector izquierda: input*/
 
 .text{
     border: 1px solid #d0d0d0;
@@ -57,7 +62,7 @@
     width: 200px;
 }
 
-/*sector derecho: botones*/
+/*sector izquierda: botones*/
 
 .boton{
     border-radius: 20px;
@@ -80,4 +85,13 @@
 }
 
 
-/**/
+/*Seccion derecha*/
+
+.derecha{
+    display: flex;
+    width: 50%;
+    height:450px;
+    justify-content:end;
+    align-items: center;
+    background-color: Turquoise;
+}
