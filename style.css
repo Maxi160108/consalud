@@ -1,3 +1,5 @@
+
+
 body{
     display: flex;
     flex-direction: row;
@@ -5,31 +7,35 @@ body{
     height: 100%;
 }
 
-/*sector izquierda*/
-
 .izquierda{
+    align-items: center;
+    justify-content:center;
     display: flex;
     width: 50%;
-    height:450px;
-    justify-content: left;
+    height:1200;
+    flex-direction: column;
 }
+
+
 .Consalud{
+    justify-content: start;
     margin-left: 40px;
     width: 150px;
     height: 50px;
 }
 .centro{
-    margin:25px;
+    display: flex;
     justify-content: center;
-    height: 400px;
-    width: 300px;
+    height: 800px;
+    width: 650px;
     align-items: center;
+    flex-direction: column;
 }
 
 /*sector izquierda: Texto*/
 
 .encabezado{
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 0%;
     color: #929292;
@@ -37,7 +43,7 @@ body{
 
 .encabezadillo{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 13px;
+    font-size: 20px;
     margin-bottom: 40px;
     color: #929292;
 }
@@ -50,11 +56,14 @@ body{
 .Clave{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #929292;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .password{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 13px;
+    font-size: 20px;
     color: rgb(42, 42, 255);
 }
 
@@ -63,39 +72,40 @@ body{
 .text{
     border: 1px solid #d0d0d0;
     border-radius: 20px;
-    height: 35px;
-    width: 200px;
+    height: 45px;
+    width: 300px;
 }
 #text{
     border: 1px solid #d0d0d0;
     border-radius: 20px;
-    height: 35px;
-    width: 200px;
+    height: 45px;
+    width: 300px;
 }
 
 /*sector izquierda: botones*/
 
 .boton{
     border-radius: 20px;
-    height: 35px;
+    height: 45px;
     border:none;
     background-color: rgb(0,203,191);
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 200px;
+    width: 300px;
     margin-bottom: 20px;
 }
 
 #boton{
     border-radius: 20px;
-    height: 35px;
+    height: 45px;
     border:solid 0.5px rgb(0,203,191);
     color: rgb(0,203,191);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 200px;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 
 
@@ -104,8 +114,8 @@ body{
 .derecha{
     display: flex;
     width: 50%;
-    height:450px;
-    justify-content:end;
+    height:1200px;
+    justify-content:center;
     align-items: center;
     background-color: rgb(0,203,191);
     flex-direction: column;
@@ -114,7 +124,7 @@ body{
 /*Seccion derecha: text*/
 
 .Textpart{
-
+    justify-content: end;
 }
 
 .bienvenido{
@@ -145,3 +155,26 @@ body{
     align-items: center;
 }
 
+/*Sector derecho: imagenes*/
+
+.imagenes{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen1{
+    justify-content: end;
+    width: 200px;
+    height: 200px;
+}
+
+.imagen2{
+    width: 200px;
+    height: 200px;
+    margin-left: 250px;
+}
+
+.imagen3{
+    width: 200px;
+    height: 200px;
+}
